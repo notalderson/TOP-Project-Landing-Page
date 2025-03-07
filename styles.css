@@ -6,7 +6,6 @@
 
 .section1 {
     display: flex;
-    flex-direction: column;
     background-color: #303030 ;
     padding: 20px 75px, 100, 75px;
 }
@@ -14,6 +13,7 @@
 .header {
     display: flex;
     flex-direction: row;
+    height: 40px;
     width: 900px;
     padding: 5px 10px;
 }
@@ -32,22 +32,25 @@
     justify-self: flex-end;
 }
 
-.content1 {
-    display: flex;
-    flex-direction: row;
-    flex: 1 1 auto;
-}
-
 .hero {
     font-size: 48px;
     color: #F9FAF8;
+    font-weight: 900;
 }
 
 .hero-secundary{
     font-size: 18px;
     color: #E5E7EB;
 }
+.content1 {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+}
+
 
 .image1 {
-   
+   width: 400px;
+   height: 350px;
+   outline: 1px solid whitesmoke;
 }
