@@ -1,56 +1,82 @@
 * {
  font-family: 'roboto', sans-serif;
- margin: 0px;
- padding: auto 40px;
+ box-sizing: border-box;
 }
 
 .section1 {
     display: flex;
-    background-color: #303030 ;
-    padding: 20px 75px, 100, 75px;
+    flex-direction: column;
+    background-color: #1F2937 ;
+    padding: 10px 100px 75px 100px;
+
 }
 
 .header {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     height: 40px;
-    width: 900px;
-    padding: 5px 10px;
+    padding-bottom: 30px;
 }
 
 .header-left {
     font-size: 24px;
     color: #F9FAF8;
-    justify-self: flex-start;
 }
 
 .header-right {
     display: flex;
-    flex-wrap: wrap;
     font-size: 18px;
     color: #E5E7EB;
-    justify-self: flex-end;
+    height: 40px;
+    gap: 60px;
+    padding: 0;
+    margin: 0;
+}
+
+.header-right li {
+    display: inline-block;
+}
+
+.header-right > ol {
+    list-style-type: none;
+}
+
+.content1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    padding-top: 60px;
+    flex-wrap: wrap;
+}
+
+.content1-left {
+    width: 50%;
+}
+.content1-right {
+    width: 50%;
+    align-self: flex-end;
+}
+
+.content img {
+    width: 500px;
+    height: auto;
 }
 
 .hero {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+
 }
 
-.hero-secundary{
+.hero-secundary {
     font-size: 18px;
     color: #E5E7EB;
 }
-.content1 {
-    display: flex;
-    flex-direction: row;
-    flex: 1 1 auto;
-}
 
+button {
 
-.image1 {
-   width: 400px;
-   height: 350px;
-   outline: 1px solid whitesmoke;
 }
