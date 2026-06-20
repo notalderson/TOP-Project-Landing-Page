@@ -18,7 +18,7 @@
 }
 
 .header-left {
-    font-size: 24px;
+    font-size: 18px;
     color: #F9FAF8;
 
 }
@@ -63,7 +63,7 @@
 }
 
 .hero-secondary {
-    font-size: 18px;
+    font-size: 24px;
     color: #E5E7EB;
     margin-bottom: 16px;
 }
@@ -76,6 +76,11 @@ button {
     font-weight: 700;
     font-size: 16px;
     border: none;
+}
+
+.section2 h1 {
+    display: flex;
+    justify-content: center;
 }
 
 .gallery {
@@ -104,16 +109,55 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-end;
     background-color: #E5E7EB;
-    padding: 50px 80px
+    padding: 100px 350px;
 }
 
 .quote {
     font-style: italic;
     font-size: 36px;
     color: #1F2937;
+    margin: 0px;
 }
 
 .quoter {
     font-weight: bold;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.section4 {
+    padding: 100px 240px;
+}
+
+.section4 .container {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px; 
+    padding: 40px 120px;
+    border-radius: 8px;
+    color: #F9FAF8;
+}
+
+.section4 button {
+    color: white;
+    background-color: #3882f6;
+    border-radius: 8px;
+    border: 2px solid white;
+}
+
+.section4 .container .text h2,
+.section4 .container .text p {
+    margin: 0px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
